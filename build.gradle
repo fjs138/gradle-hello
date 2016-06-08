@@ -1,6 +1,8 @@
 // enables basic Java build functionality
 apply plugin: 'java'
 
+// apply plugin: 'eclipse'
+
 //  make this code runnable
 apply plugin: 'application'
 mainClassName = 'hello.HelloWorld'
