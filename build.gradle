@@ -1,0 +1,34 @@
+//  make this code runnable
+apply plugin: 'java'
+
+// allow generation of project reports
+apply plugin: 'project-report'
+
+// indicates that the build should resolve its dependencies
+// from the Maven Central repository
+repositories {
+	mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+// declare a single dependency for Joda Time.
+// Specifically, you’re asking for (reading right to left)
+// version 2.2 of the joda-time library, in the joda-time group.
+dependencies {
+	compile "joda-time:joda-time:2.2"
+}
+
+// specifies how the JAR file will be named.
+// In this case, it will render gs-gradle-0.1.0.jar
+jar {
+	baseName = 'gs-gradle'
+	version = '0.1.0'
+}
+
+// allows you to run a Gradle build without requiring that
+// Gradle be installed on your system
+task wrapper (type: Wrapper) {
+	gradleVersion = '2.3'
+}

@@ -1,0 +1,106 @@
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+allprojects: [root project 'gradle-hello']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@322204dc
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@656a3d6b
+archivesBaseName: gradle-hello
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@25b38203
+asDynamicObject: org.gradle.api.internal.ExtensibleDynamicObject@778a1250
+assemble: task ':assemble'
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@55acec99
+buildDependents: task ':buildDependents'
+buildDir: /home/frank/Documents/Java/gradle-hello/build
+buildFile: /home/frank/Documents/Java/gradle-hello/build.gradle
+buildNeeded: task ':buildNeeded'
+buildScriptSource: org.gradle.groovy.scripts.UriScriptSource@61191222
+buildscript: org.gradle.api.internal.initialization.DefaultScriptHandler@58833798
+check: task ':check'
+childProjects: {}
+class: class org.gradle.api.internal.project.DefaultProject_Decorated
+classLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@7f3ca64a
+classes: task ':classes'
+compileJava: task ':compileJava'
+compileTestJava: task ':compileTestJava'
+components: [org.gradle.api.internal.java.JavaLibrary@4d464510]
+configurationActions: org.gradle.configuration.project.DefaultProjectConfigurationActionContainer@64e7d698
+configurations: [configuration ':archives', configuration ':compile', configuration ':compileClasspath', configuration ':compileOnly', configuration ':default', configuration ':runtime', configuration ':testCompile', configuration ':testCompileClasspath', configuration ':testCompileOnly', configuration ':testRuntime']
+convention: org.gradle.api.internal.plugins.DefaultConvention@2519026b
+defaultArtifacts: org.gradle.api.internal.plugins.DefaultArtifactPublicationSet_Decorated@3f8dfe74
+defaultTasks: []
+deferredProjectConfiguration: org.gradle.api.internal.project.DeferredProjectConfiguration@401c4250
+dependencies: org.gradle.api.internal.artifacts.dsl.dependencies.DefaultDependencyHandler_Decorated@1a950fdd
+dependencyCacheDir: /home/frank/Documents/Java/gradle-hello/build/dependency-cache
+dependencyCacheDirName: dependency-cache
+dependencyReport: task ':dependencyReport'
+depth: 0
+description: null
+distsDir: /home/frank/Documents/Java/gradle-hello/build/distributions
+distsDirName: distributions
+docsDir: /home/frank/Documents/Java/gradle-hello/build/docs
+docsDirName: docs
+ext: org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension@77724cbe
+extensions: org.gradle.api.internal.plugins.DefaultConvention@2519026b
+fileOperations: org.gradle.api.internal.file.DefaultFileOperations@27dc627a
+fileResolver: org.gradle.api.internal.file.BaseDirFileResolver@570ba13
+gradle: build 'gradle-hello'
+group: 
+htmlDependencyReport: task ':htmlDependencyReport'
+inheritedScope: org.gradle.api.internal.ExtensibleDynamicObject$InheritedDynamicObject@37a9b687
+jar: task ':jar'
+javadoc: task ':javadoc'
+libsDir: /home/frank/Documents/Java/gradle-hello/build/libs
+libsDirName: libs
+logger: org.gradle.logging.internal.slf4j.OutputEventListenerBackedLogger@525b1b70
+logging: org.gradle.logging.internal.DefaultLoggingManager@16d07cf3
+modelRegistry: org.gradle.model.internal.registry.DefaultModelRegistry@16f0ec18
+modelSchemaStore: org.gradle.model.internal.manage.schema.extract.DefaultModelSchemaStore@6c977dcf
+module: org.gradle.api.internal.artifacts.ProjectBackedModule@5bb3d42d
+name: gradle-hello
+parent: null
+parentIdentifier: null
+path: :
+pluginManager: org.gradle.api.internal.plugins.DefaultPluginManager_Decorated@661d6bb6
+plugins: [org.gradle.api.plugins.HelpTasksPlugin@1761de10, org.gradle.language.base.plugins.LifecycleBasePlugin@1b9c1b51, org.gradle.api.plugins.BasePlugin@a20b94b, org.gradle.api.plugins.ReportingBasePlugin@3c6aa04a, org.gradle.platform.base.plugins.ComponentBasePlugin@21422231, org.gradle.language.base.plugins.LanguageBasePlugin@627d8516, org.gradle.platform.base.plugins.BinaryBasePlugin@27ace0b1, org.gradle.api.plugins.JavaBasePlugin@7bebcd65, org.gradle.api.plugins.JavaPlugin@1e8ab90f, org.gradle.api.plugins.ProjectReportsPlugin@620c8641]
+processOperations: org.gradle.api.internal.file.DefaultFileOperations@27dc627a
+processResources: task ':processResources'
+processTestResources: task ':processTestResources'
+project: root project 'gradle-hello'
+projectDir: /home/frank/Documents/Java/gradle-hello
+projectEvaluationBroadcaster: ProjectEvaluationListener broadcast
+projectEvaluator: org.gradle.configuration.project.LifecycleProjectEvaluator@733fb462
+projectRegistry: org.gradle.api.internal.project.DefaultProjectRegistry@623e0631
+projectReport: task ':projectReport'
+projectReportDir: /home/frank/Documents/Java/gradle-hello/build/reports/project
+projectReportDirName: project
+projects: [root project 'gradle-hello']
+properties: {...}
+propertyReport: task ':propertyReport'
+reporting: org.gradle.api.reporting.ReportingExtension_Decorated@359066bc
+reportsDir: /home/frank/Documents/Java/gradle-hello/build/reports
+repositories: [org.gradle.api.internal.artifacts.repositories.DefaultMavenArtifactRepository_Decorated@385dfb63]
+resources: org.gradle.api.internal.resources.DefaultResourceHandler@364fd4ae
+rootDir: /home/frank/Documents/Java/gradle-hello
+rootProject: root project 'gradle-hello'
+scriptHandlerFactory: org.gradle.api.internal.initialization.DefaultScriptHandlerFactory@245253d8
+scriptPluginFactory: org.gradle.configuration.DefaultScriptPluginFactory@12417468
+serviceRegistryFactory: org.gradle.internal.service.scopes.ProjectScopeServices$4@459003a0
+services: ProjectScopeServices
+sourceCompatibility: 1.8
+sourceSets: [source set 'main', source set 'test']
+standardOutputCapture: org.gradle.logging.internal.DefaultLoggingManager@16d07cf3
+state: project state 'EXECUTED'
+status: integration
+subprojects: []
+targetCompatibility: 1.8
+taskReport: task ':taskReport'
+tasks: [task ':assemble', task ':buildDependents', task ':buildNeeded', task ':check', task ':classes', task ':compileJava', task ':compileTestJava', task ':dependencyReport', task ':htmlDependencyReport', task ':jar', task ':javadoc', task ':processResources', task ':processTestResources', task ':projectReport', task ':propertyReport', task ':taskReport', task ':test', task ':testClasses']
+test: task ':test'
+testClasses: task ':testClasses'
+testReportDir: /home/frank/Documents/Java/gradle-hello/build/reports/tests
+testReportDirName: tests
+testResultsDir: /home/frank/Documents/Java/gradle-hello/build/test-results
+testResultsDirName: test-results
+version: unspecified
