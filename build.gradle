@@ -1,5 +1,9 @@
-//  make this code runnable
+// enables basic Java build functionality
 apply plugin: 'java'
+
+//  make this code runnable
+apply plugin: 'application'
+mainClassName = 'hello.HelloWorld'
 
 // allow generation of project reports
 apply plugin: 'project-report'
